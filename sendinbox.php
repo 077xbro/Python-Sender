@@ -33,17 +33,19 @@ class Sendinbox extends Sendinbox_config
 		$this->SIBmodules->cover();
 		$this->Emailist 	= $this->SIBmodules->required();
 		
-		echo "\r\n[+] ".$this->SIBmodules->color("string","====================================================================")." [+]\r\n";
-   		echo "[+] ".$this->SIBmodules->color("string","[ S E N D I N B O X - M A I L E R ]  - Emailist.org / Bmarket.or.id  ")."\r\n";
-   		echo "[+] ".$this->SIBmodules->color("string","--------------------------------------------------------------------")."\r\n";
-   		echo "[+] ".$this->SIBmodules->color("red","Selalu gunakan sendinbox yang legal. jika kamu masih numpang")."\r\n";
-   		echo "[+] ".$this->SIBmodules->color("white","kami akan kasih kamu 20% diskon produk sendinbox")."\r\n";
-   		echo "[+] ".$this->SIBmodules->color("white","suruh kawan mu (pembeli legal) untuk membelikan sendinbox untuk mu.")."\r\n";
-   		echo "[+] ".$this->SIBmodules->color("white","untuk mu. itu lebih baik dari pada joinan sungkan minta update.")."\r\n";
-   		echo "[+] ".$this->SIBmodules->color("green","** 1 kawan hanya bisa request 1x untuk diskon 20% **")."\r\n";
+echo "\r\n[+] ".$this->SIBmodules->color("string","====================================================================")." [+]\r\n";
+  
+  ___ ____ _____                    _           __  __       _ _          ___ ____  
+ |_ _|  _ \___ / ___  ___ _ __   __| | ___ _ __|  \/  | __ _(_) | ___ _ _|_ _|  _ \ 
+  | || | | ||_ \/ __|/ _ \ '_ \ / _` |/ _ \ '__| |\/| |/ _` | | |/ _ \ '__| || | | |
+  | || |_| |__) \__ \  __/ | | | (_| |  __/ |  | |  | | (_| | | |  __/ |  | || |_| |
+ |___|____/____/|___/\___|_| |_|\__,_|\___|_|  |_|  |_|\__,_|_|_|\___|_| |___|____/ 
+                                                                                    
+
+
    		echo "[+] ".$this->SIBmodules->color("string","====================================================================")." [+]\r\n\n";
 
-   		echo $this->SIBmodules->color("string","[sendunbox][N] --------- [EMAIL] -----------|------[SUBJECT]------|--[Daily Quota]--|-----STATUS-----")."\r\n";
+   		echo $this->SIBmodules->color("string","[Senbox][N] --------- [EMAIL] -----------|------[SUBJECT]------|--[Daily Quota]--|-----STATUS-----")."\r\n";
    		
 		$this->run();
 	}
