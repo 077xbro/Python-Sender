@@ -1,10 +1,10 @@
-@rem @author: Eka Syahwan
-@rem @Date: 2017-09-14 06:18:06
-@rem @last Modified by: Eka Syahwan
-@rem Modified time: 2018-01-12 04:25:37
+@rem @author: ID3n3tsp3tID
+@rem @Date: 2020-01-14 07:18:07
+@rem @last Modified by: ID3n3tsp3tID
+@rem Modified time: | $date
 @echo off
 set PATH=%PATH%;c:\xampp\php
-title Sendinbox Google Script CommandLine (GSCLI) 2018
+title Sendinbox Google Script CommandLine (SENBOXMAILER) 2020
 :runsendinbox
 
 php sendinbox.php
