@@ -1,9 +1,7 @@
 <?php
-/**
- * @Author: Eka Syahwan
- * @Date:   2018-08-29 08:57:41
- * @Last Modified by:   Eka Syahwan
- * @Last Modified time: 2018-10-19 22:18:08
+/*
+ * @Author: ID3n3tsp3tID
+
 */
 error_reporting(0);
 session_start();
