@@ -1,0 +1,23 @@
+-------------------------------------------------------------
+Welcome back ,  Sendinbox GSCLI (Google Script CommandLine)
+-------------------------------------------------------------
+
+Version code information  
+Format  : v.v.i dMY
+
+* V = Version 
+* I = Issue 
+
+
+[ Version 1.1.1 - 19.OKT.2018 ]
+
+- Add access logs (send success / failed)
+- Add methode send (MailApps / GmailApps) in GSC (setting use GmailApps or MailApps in sendinbox-config.php)
+  + Ref : https://developers.google.com/apps-script/reference/gmail/gmail-app
+  + Ref : https://developers.google.com/apps-script/reference/mail/mail-app
+
+
+
+-------------------------------------------------------------
+Delete the log.txt file to not display this message
+-------------------------------------------------------------
