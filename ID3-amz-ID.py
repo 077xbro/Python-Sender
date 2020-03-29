@@ -16,6 +16,8 @@ print('''
 
 print('ⒾⒹ③ⓝ③ⓣⓢⓟ③ⓣⒾⒹ')
 
+''')
+
 live = open('Amz-Live.txt','w')
 die = open('Amz-Die.txt','w')
 
