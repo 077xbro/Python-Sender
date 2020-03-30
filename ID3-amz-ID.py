@@ -1,8 +1,9 @@
 import requests
 
-# Jangan Di Recode Ya Bossku
-# Tinggal  Make Aja Apa Susahnya Sih :)
-# options output live dan die
+# Ⓓ③ⓝ③ⓣⓢⓟ③ⓣⒾⒹⒾ
+# recorde by https://www.facebook.com/N05t4L914
+# open cmd klik c:/ install requests for supporr cli
+# dowoad python2 for support cli
 
 live = open('Amz-Live.txt','w')
 die = open('Amz-Die.txt','w')
@@ -37,5 +38,5 @@ while True:
 		print("\033[31;1mDIE\033[0m | "+email+" |[ID3][ Amazon Validor Email ][ID]")
 		die.write(email)
 print("-"*50)
-print("\033[35;1mProccess Checking Done By X-Mr.R4h1M - ./Xi4u7\033[0m")
+print("\033[35;1mProccess Checking Done By Ⓓ③ⓝ③ⓣⓢⓟ③ⓣⒾⒹⒾ - ./Xi4u7\033[0m")
 print("Valid Email Saved In : Amz-Live.txt\nDie Email Saved In : Amz-Die.txt")
